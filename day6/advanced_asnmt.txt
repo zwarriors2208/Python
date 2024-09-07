@@ -1,0 +1,3 @@
+2024-09-07 12:01:44,273 - logging using advanced logging - INFO - greet has begun
+2024-09-07 12:02:25,408 - logging using advanced logging - INFO - greet has begun
+2024-09-07 12:02:25,409 - logging using advanced logging - INFO - greet has finished

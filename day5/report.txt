@@ -1,0 +1,12 @@
+Report title: Yearly Sales Report
+=================================
+Author:  Adarsh
+Date: November 2024
+
+Report Sections: 
+-----------------
+Section 1: Introduction: Overview of sales performance.
+Section 3: Market Trends:Analysis of current market trends.
+Conclusion:
+----------
+Overall,sales have increased by 15% compared to the previous month.
