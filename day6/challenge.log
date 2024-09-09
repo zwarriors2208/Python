@@ -1,0 +1,4 @@
+2024-09-07 12:46:44,619 - root - ERROR - Starting loggggggg
+2024-09-07 12:46:44,619 - root - ERROR - log print error message
+2024-09-07 12:46:44,619 - root - CRITICAL - log critical message
+2024-09-07 12:46:44,620 - root - ERROR - Finished loggggggg
