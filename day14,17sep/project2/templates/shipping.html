@@ -1,0 +1,114 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+<!--    <title>home3</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action = '/summary' method = 'POST'>-->
+<!--    <h2>Shipping Details</h2>-->
+<!--    <label for="f_name">Full name</label>-->
+<!--    <input type = text id = 'f_name' name = 'f_name'>-->
+<!--<br>-->
+<!--    <br>-->
+<!--    <label for="p_n">Phone number</label>-->
+<!--    <input type = text id = 'p_n' name = 'p_n'>-->
+<!--<br>-->
+<!--    <br>-->
+<!--    <label for="pincode">Pincode</label>-->
+<!--    <input type = text id = 'pincode' name = 'pincode'>-->
+<!--<br>-->
+<!--<br>-->
+<!--    <label for="address">House No., Building Name</label>-->
+<!--    <input type = text id = 'address' name = 'address'>-->
+
+<!--<br>-->
+<!--    <br>-->
+<!--    <label for="city">State</label>-->
+<!--    <input type = text id = 'city' name = 'city'>-->
+<!--<br>-->
+<!--    <br>-->
+<!--    <button type="submit">Submit</button>-->
+
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+<form action = '/summary' method = 'POST'>
+    <h2>Shipping Details</h2>
+    <label for="f_name">Full Name</label>
+    <input type = "text" id = "f_name" name = "f_name">
+
+    <label for="p_n">Phone Number</label>
+    <input type = "text" id = "p_n" name = "p_n">
+
+    <label for="pincode">Pincode</label>
+    <input type = "text" id = "pincode" name = "pincode">
+
+    <label for="address">House No., Building Name</label>
+    <input type = "text" id = "address" name = "address">
+
+    <label for="city">State</label>
+    <input type = "text" id = "city" name = "city">
+
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
